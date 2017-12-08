@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 TextView tv = (TextView) findViewById(R.id.welcome_message);
-                tv.setText("Welcome to espresso");
+                tv.setText("Welcome to espresso!");
             }
         });
     }
